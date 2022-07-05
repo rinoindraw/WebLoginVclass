@@ -1,0 +1,196 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #DFDFDE;
+}
+
+.judul{
+    position: relative;
+    text-align: center;
+    margin-top: 130px;
+    background: #ffff;
+    border-radius: 20px;
+    width: 60%;
+    left: 20%;
+    padding: 20px 0px 20px 0px;
+    -webkit-box-shadow:0px 1px 20px #1B1A17;
+    -moz-box-shadow:0px 1px 20px #1B1A17;
+    box-shadow:0px 1px 20px #1B1A17;
+}
+.username{
+    text-align: center;
+    width: auto;
+    margin-top: 35px;
+    margin-right: 320px;
+}
+
+#usr{
+    width: 250px;
+    font-size: 17px;
+    border: solid grey;
+    border-radius: 10px;
+}
+
+#pass{
+    width: 250px;
+    font-size: 17px;
+    border: solid grey;
+    border-radius: 10px;
+}
+
+.password{
+    text-align: center;
+    width: auto;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+.cbuser{
+    text-indent: 2px;
+    text-align: center;
+    width: auto;
+    margin-top: 15px;
+    margin-left: -5px;
+    font-size: 15px;
+    font-weight: lighter;
+    text-decoration: wavy;
+}
+
+.login{
+    margin-top: 25px;
+    margin-left: -310px;
+}
+
+#login{
+    background: blue;
+    text-align: center;
+    color: white;
+    padding: 10px 110px 10px 110px;
+    border-radius: 10px;
+}
+
+#login:hover{
+    text-decoration: none;
+    background-color: #084594;
+}
+
+.tambahan{
+    text-align: left;
+    border-radius: 20px;
+    float: right;
+    margin-right: 130px;
+    margin-top: -25px;
+    width: auto;
+}
+
+#tnd{
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+}
+
+#fg1{
+    color: blue;
+    margin-top: 25px;
+}
+
+p{
+    margin-top: 5px;
+}
+
+#login2{
+    color: #789395;
+    background: #EEEDDE;
+    float: right;
+    margin-right: 220px;
+    margin-top: -55px;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+
+#login2:hover{
+    text-decoration: none;
+    background: #D1D1D1;
+}
+
+#vc{
+    background: #EEEDDE;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+    margin-top: -17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid grey;
+}
+
+#a1{
+    background: #90E0EF;
+    color: white;
+    width: 20px;
+    border-radius: 1000px;
+    padding: 5px;
+}
+
+#foot{
+    background: #3A3845;
+    padding: 0px 0px 35px 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.footer{
+    margin-top: 110px;
+    margin-left: 120px;
+}
+
+.footer_2{
+    margin-top: 5px;
+}
+
+#ft2{
+    text-decoration: underline;
+    color: #ffff;
+}
+
+#yali{
+    padding-top: 15px;
+    color: #ffff;
+}
+
+@media screen and (max-width:1250px){
+    .judul{
+        width: 100%;
+        left: 0;
+        display: block;
+    }
+    .footer{
+        width: 100%;
+    }
+    .username{
+        text-align: center;
+        display: block;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .tambahan{
+        display: none;
+    }
+    .password{
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-left: 10px;
+    }
+    .login2{
+        display: none;
+    }
+    .login{
+        width: 100%;
+        margin-left: 10px;
+    }
+}
